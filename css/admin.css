@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,400;1,400&display=swap');
+
+* {
+  font-family: 'Prompt', sans-serif;
+}
+
+
+.new
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.new a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #fff;
+}
+
+
+.card {
+    width: 232px;
+    height: 220px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin: 15px;
+  }
+  
+  .card2 {
+    width: 230px;
+    height: 220px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: all .2s;
+    /* align-items: center;
+    justify-content: center;
+    display: flex;     */
+    text-align: center;
+  }
+  
+  .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  }
